@@ -1,0 +1,27 @@
+---
+arch: sat6_net
+dataset: sat6
+
+layers:
+  - pad: 1
+    activate: ReLU
+    max_pool: 2
+    pool_stride: 2
+    processors: 0x000000000000000f
+    out_offset: 0x2000
+  - pad: 1
+    activate: ReLU
+    max_pool: 2
+    pool_stride: 2
+    processors: 0x000000000000ffff
+    out_offset: 0x0000
+  - pad: 1
+    activate: ReLU
+    max_pool: 2
+    pool_stride: 2
+    processors: 0x00000000ffffffff
+    out_offset: 0x2000
+  - operation: Linear
+    flatten: true
+    processors: 0xffffffffffffffff
+    out_offset: 0x0000
