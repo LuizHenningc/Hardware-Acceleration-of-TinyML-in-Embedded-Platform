@@ -41,8 +41,9 @@ Hardware-Acceleration-of-TinyML-in-Embedded-Platform/
 │   └── README.md
 └── docs/
     └── TCC_Analise_TinyML_Aceleracao_Hardware.pdf
+```
 
-    ## Dataset
+## Dataset
 
 O projeto utiliza o **SAT-6**, um conjunto de imagens multiespectrais de sensoriamento remoto.
 
