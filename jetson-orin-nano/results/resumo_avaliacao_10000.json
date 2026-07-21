@@ -1,0 +1,16 @@
+{
+  "model": "/home/ledsjetson/Desktop/sat6_tf_28_export_50ep/sat6_tf_28_best.keras",
+  "x_test": "/home/ledsjetson/Desktop/dataset/X_test_sat6.csv",
+  "y_test": "/home/ledsjetson/Desktop/dataset/y_test_sat6.csv",
+  "rows": 10000,
+  "accuracy": 0.9934,
+  "correct": 9934,
+  "total": 10000,
+  "x_csv_for_c": "/home/ledsjetson/Desktop/sat6_tf_28_export_50ep_eval/X_test_sat6_tf_hwc_10000.csv",
+  "y_csv_for_c": "/home/ledsjetson/Desktop/sat6_tf_28_export_50ep_eval/y_test_sat6_tf_labels_10000.csv",
+  "confusion_matrix_csv": "/home/ledsjetson/Desktop/sat6_tf_28_export_50ep_eval/matriz_confusao.csv",
+  "confusion_matrix_png": "/home/ledsjetson/Desktop/sat6_tf_28_export_50ep_eval/matriz_confusao.png",
+  "confusion_matrix_normalized_png": "/home/ledsjetson/Desktop/sat6_tf_28_export_50ep_eval/matriz_confusao_normalizada.png",
+  "training_accuracy_plot": "/home/ledsjetson/Desktop/sat6_tf_28_export_50ep_eval/grafico_acuracia_treino_validacao.png",
+  "training_loss_plot": "/home/ledsjetson/Desktop/sat6_tf_28_export_50ep_eval/grafico_loss_treino_validacao.png"
+}

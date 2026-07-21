@@ -1,0 +1,37 @@
+START 15W BATCH 256 qua 20 mai 2026 16:01:13 -03
+2026-05-20 16:01:13.331520: I tensorflow/cc/saved_model/reader.cc:83] Reading SavedModel from: sat6_savedmodel_for_c/
+2026-05-20 16:01:13.334650: I tensorflow/cc/saved_model/reader.cc:51] Reading meta graph with tags { serve }
+2026-05-20 16:01:13.334708: I tensorflow/cc/saved_model/reader.cc:146] Reading SavedModel debug info (if present) from: sat6_savedmodel_for_c/
+2026-05-20 16:01:13.346533: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:984] could not open file to read NUMA node: /sys/bus/pci/devices/0000:00:00.0/numa_node
+Your kernel may have been built without NUMA support.
+2026-05-20 16:01:13.392710: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:984] could not open file to read NUMA node: /sys/bus/pci/devices/0000:00:00.0/numa_node
+Your kernel may have been built without NUMA support.
+2026-05-20 16:01:13.392897: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:984] could not open file to read NUMA node: /sys/bus/pci/devices/0000:00:00.0/numa_node
+Your kernel may have been built without NUMA support.
+2026-05-20 16:01:13.474871: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:984] could not open file to read NUMA node: /sys/bus/pci/devices/0000:00:00.0/numa_node
+Your kernel may have been built without NUMA support.
+2026-05-20 16:01:13.475084: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:984] could not open file to read NUMA node: /sys/bus/pci/devices/0000:00:00.0/numa_node
+Your kernel may have been built without NUMA support.
+2026-05-20 16:01:13.475153: I tensorflow/core/common_runtime/gpu/gpu_device.cc:2019] Could not identify NUMA node of platform GPU id 0, defaulting to 0.  Your kernel may not have been built with NUMA support.
+2026-05-20 16:01:13.475266: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:984] could not open file to read NUMA node: /sys/bus/pci/devices/0000:00:00.0/numa_node
+Your kernel may have been built without NUMA support.
+2026-05-20 16:01:13.475368: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1928] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 2618 MB memory:  -> device: 0, name: Orin, pci bus id: 0000:00:00.0, compute capability: 8.7
+2026-05-20 16:01:13.527360: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:388] MLIR V1 optimization pass is not enabled
+2026-05-20 16:01:13.532976: I tensorflow/cc/saved_model/loader.cc:234] Restoring SavedModel bundle.
+2026-05-20 16:01:14.306201: I tensorflow/cc/saved_model/loader.cc:218] Running initialization op on SavedModel bundle at path: sat6_savedmodel_for_c/
+2026-05-20 16:01:14.353459: I tensorflow/cc/saved_model/loader.cc:317] SavedModel load for tags { serve }; Status: success: OK. Took 1022003 microseconds.
+2026-05-20 16:01:20.077928: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:465] Loaded cuDNN version 8904
+Modelo: sat6_savedmodel_for_c/
+Entrada: serve_input_sat6
+Saida: StatefulPartitionedCall
+Formato SAT-6: [256, 28, 28, 4]
+Features por amostra: 3136
+Classes: 6
+
+Iniciando execucao
+
+Finalizado
+Execution time: 6.707321 seconds
+Average latency: 0.670732 ms/image
+Accuracy: 99.34% (9934/10000 correct)
+END 15W BATCH 256 qua 20 mai 2026 16:01:26 -03
