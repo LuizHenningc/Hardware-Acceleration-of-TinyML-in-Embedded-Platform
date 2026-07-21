@@ -41,3 +41,42 @@ Hardware-Acceleration-of-TinyML-in-Embedded-Platform/
 │   └── README.md
 └── docs/
     └── TCC_Analise_TinyML_Aceleracao_Hardware.pdf
+
+    ## Dataset
+
+O projeto utiliza o **SAT-6**, um conjunto de imagens multiespectrais de sensoriamento remoto.
+
+Cada amostra possui:
+
+- dimensão de 28 × 28 pixels;
+- quatro canais espectrais: vermelho, verde, azul e infravermelho próximo;
+- seis classes de cobertura terrestre.
+
+Os arquivos completos do dataset não são armazenados neste repositório devido ao seu tamanho.
+
+## Plataformas avaliadas
+
+### NVIDIA Jetson Orin Nano
+
+CNN desenvolvida com TensorFlow/Keras e executada em uma plataforma Linux com GPU embarcada.
+
+### MAX78000
+
+CNN quantizada convertida para firmware em linguagem C e executada no acelerador CNN dedicado do microcontrolador. A validação foi realizada em hardware real por meio de testes hardware-in-the-loop.
+
+### PYNQ-Z2 com FINN
+
+CNN quantizada treinada com PyTorch e Brevitas, exportada para QONNX e processada pelo FINN para geração de um acelerador em FPGA.
+
+## TCC completo
+
+O documento completo, contendo fundamentação teórica, metodologia, implementação e análise dos resultados, está disponível em:
+
+[Visualizar o TCC completo](docs/TCC_Analise_TinyML_Aceleracao_Hardware.pdf)
+
+## Autor
+
+**Luiz Renato Henning Carneiro**  
+Engenharia de Computação — Universidade do Vale do Itajaí
+
+Orientador: **Prof. Dr. Felipe Viel**
