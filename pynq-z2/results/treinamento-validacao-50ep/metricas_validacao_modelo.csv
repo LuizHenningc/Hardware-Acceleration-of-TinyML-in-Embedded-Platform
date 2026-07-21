@@ -1,0 +1,8 @@
+Métrica,Valor,Unidade
+Acurácia Brevitas/PyTorch,0.9278,proporção
+Acurácia QONNX software,0.934,proporção
+Concordância Brevitas vs QONNX,0.985,proporção
+Tempo Brevitas/PyTorch,0.16685748100280762,s
+Tempo QONNX software,55.32284069061279,s
+Amostras/s Brevitas/PyTorch,29965.6926974456,amostras/s
+Amostras/s QONNX software,90.37858391910817,amostras/s

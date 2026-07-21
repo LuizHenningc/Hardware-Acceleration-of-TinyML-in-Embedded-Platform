@@ -1,0 +1,13 @@
+{
+  "configuration": "t2w8_500fps",
+  "platform": "PYNQ-Z2",
+  "dataset": "SAT-6",
+  "samples": 1000,
+  "correct": 935,
+  "accuracy": 0.935,
+  "elapsed_seconds": 2.258213,
+  "latency_ms_per_image": 2.258213,
+  "throughput_images_per_second": 442.827969,
+  "average_power_w": 1.58,
+  "estimated_energy_mj_per_image": 3.56797654
+}

@@ -1,0 +1,22 @@
+{
+  "observacao": "Validação por software. Não houve execução física na PYNQ-Z2.",
+  "dataset": {
+    "n_test_brevitas": 5000,
+    "n_test_qonnx": 5000,
+    "entrada": "3136 atributos por imagem, normalizados por /255.0",
+    "classes": 6
+  },
+  "brevitas_pytorch": {
+    "accuracy": 0.9278,
+    "elapsed_seconds": 0.16685748100280762,
+    "samples_per_second": 29965.6926974456
+  },
+  "qonnx_software": {
+    "accuracy": 0.934,
+    "elapsed_seconds": 55.32284069061279,
+    "samples_per_second": 90.37858391910817
+  },
+  "comparacao": {
+    "agreement_brevitas_vs_qonnx": 0.985
+  }
+}
